@@ -1,0 +1,253 @@
+@media (max-width: 1399.98px) {
+    .bannerTitle{max-width: 40%;top: 40%;}
+    .bannerTitle h1{font-size: 33px;}
+    .homeBanner li:nth-child(12){min-width: 140px;}
+    .aboutSection .container{padding: 100px 50px;}
+    .sectionTitle{font-size: 2.8rem;line-height: 2.8rem;}
+    .aboutSection .aboutRight{padding: 0 50px;}
+    .aboutSection .aboutRight img{box-shadow: -20px 20px 0px 0px rgba(0,0,0,0.20);}
+    .aboutSection .aboutSectionTxt::before{top: -170px;}
+    .aboutSection .aboutSectionTxt::after{bottom: -60px;}
+    .innerBanner h1{padding-right: 210px;left: -210px;font-size: 40px;}
+    .coreValue{padding: 150px 100px;}
+    .proposedCore{max-width: 100%;}
+    .support p{padding: 0 10%;}
+    .whyMetallium > ul{grid-gap: 20px;}
+    .whyMetallium > ul > li{padding: 30px;}
+    .whyMetallium > ul > li > img{max-height: 60px;}
+    .difference{padding: 150px 50px;grid-gap: 50px;}
+    .gallery ul{grid-template-columns: 1fr 1fr 1fr;}
+    footer .touch{font-size: 3rem;line-height: 3.4rem;}
+    .journey{padding-left: 50px;padding-right: 50px;}
+}
+@media (max-width: 1199.98px) {
+    main{height: auto;}
+    .homeBanner{height: auto;display: table;}
+    .menu{grid-template-columns: 1fr;}
+    .navBg{display: none;}   
+    .menu.active ul{margin: auto;}
+    .menu ul{margin: auto;display: table;text-align: center;}
+    .menu ul > li > a{font-size: 8px;line-height: 70px;transition:all .5s ease;}
+    .menu.active ul > li > a{font-size: 38px;}
+    .homeBanner > ul{grid-template-columns: 1fr 1fr 1fr;width: 70%;float: none;height: auto;position: relative;left: 0;padding: 0;bottom: auto;margin: auto;}
+    .homeBanner > ul > li:nth-child(5),
+    .homeBanner > ul > li:nth-child(10),
+    .homeBanner > ul > li:nth-child(11),
+    .homeBanner > ul > li:nth-child(12),
+    .homeBanner > ul > li:nth-child(15),
+    .homeBanner > ul > li:nth-child(16){min-width: 33.3%;min-height: 200px;}
+
+    .homeBanner > ul > li:nth-child(1),
+    .homeBanner > ul > li:nth-child(2),
+    .homeBanner > ul > li:nth-child(3),
+    .homeBanner > ul > li:nth-child(4),
+    .homeBanner > ul > li:nth-child(6),
+    .homeBanner > ul > li:nth-child(7),
+    .homeBanner > ul > li:nth-child(8),
+    .homeBanner > ul > li:nth-child(9),
+    .homeBanner > ul > li:nth-child(12),
+    .homeBanner > ul > li:nth-child(13),
+    .homeBanner > ul > li:nth-child(14),
+    .homeBanner > ul > li:nth-child(16),
+    .homeBanner > ul > li:nth-child(17),
+    .homeBanner > ul > li:nth-child(18){display: none;}
+
+    .bannerTitle{max-width: 100%;top: auto;transform: none;left: 0;padding: 0 15%;text-align: center;position: relative;margin-top: 80px;margin-bottom: 50px;}
+    .bannerTitle ul{display: table;margin: auto;}
+    .bannerTitle h1{font-size: 26px;}
+    .bannerTitle p{font-size: 16px;}
+
+    header{background-color: #fff;}
+    .logo{padding: 28px 0 28px 20px;}
+    header.innerPage .logo{padding: 30px;}
+    header.innerPage .menu-icon{top: 22px;right: 30px;}
+    .shrink{min-height: auto;}
+    .menu-icon{top: 20px;right: 20px;}
+    .aboutSection .container{grid-template-columns: 1fr;padding: 50px;}
+    .aboutSection .aboutRight{padding: 0;}
+    .aboutSection .aboutRight::before,
+    .aboutSection .aboutRight::after{display: none;}
+    .aboutSection .aboutRight img{width: 100%;}
+    .aboutSection .aboutRight img{box-shadow: none;}
+
+    .productSection .owl-carousel .item h3{font-size: 26px;line-height: 26px;}
+    .productSection .container{grid-template-columns: 1fr;padding: 50px;}
+    .projects{padding: 50px 50px 100px 50px;}
+    .clients{padding: 100px 0;}
+    .projects::before{right: -70px;top: -72px;z-index: -1;}
+    .projects::after{left: -67px;bottom: -83px;}
+    footer::before{left: -50px;}
+    footer::after{right: -50px;}
+    .aboutSection .aboutSectionTxt::before,
+    .aboutSection .aboutSectionTxt::after{display: none;}
+    .innerBanner h1{left: -280px;padding-right: 140px;font-size: 35px;}
+    .coreValue ul{grid-template-columns: 1fr 1fr 1fr;}
+    .proposedCore ul li img{max-height: 80px;}
+    .whyMetallium > ul{grid-template-columns: 1fr 1fr;}
+    .whyMetallium > ul > li{padding: 50px;}
+    .whyMetallium > ul > li > img{max-height: 80px;}
+    .whyMetallium > ul > li > span{font-size: 20px;line-height: 24px;}
+    .difference{grid-template-columns: 1fr;padding: 50px;}
+    .productPage ul{grid-template-columns: 1fr;}
+    .gallery{padding: 50px;}
+    .gallery ul{grid-gap: 20px;}
+    .contactPage{grid-template-columns: 1.5fr 1fr;}
+    .productPage.produstList{padding: 50px;}
+    .productPage.produstList ul{grid-template-columns: 1fr 1fr;}
+    .productsIntro2{padding: 50px 20px 0 20px;}
+    .productDetails .productImg img{max-width: 600px;}
+    footer .touch{font-size: 2.4rem;line-height: 2.8rem;}
+    .journey .owl-carousel .owl-item p{max-width: 100%;}
+    .homeBanner li:nth-child(10){display: none;}
+}
+
+@media (max-width: 991.98px) {
+    .homeBanner > ul > li:nth-child(5),
+    .homeBanner > ul > li:nth-child(10),
+    .homeBanner > ul > li:nth-child(11),
+    .homeBanner > ul > li:nth-child(12),
+    .homeBanner > ul > li:nth-child(15),
+    .homeBanner > ul > li:nth-child(16){min-height: 160px;}
+    .clients{padding: 50px 0;}
+    footer::before{right: 0;rotate: 90deg;top: -164px;left: auto;}
+    footer::after{right: auto;rotate: 90deg;bottom: -208px;top: auto;left: -300px;}
+    .innerBanner{background-size: 100%;}
+    .innerBanner::before{content: "";position: absolute;width: 100%;height: 100%;background-color:rgba(0,0,0,0.7);}
+    .innerBanner h1{left: 0;width: 100%;padding-right: 0;background-position: -730px;font-size: 40px;}
+    .philosophy ul{grid-template-columns: 1fr 2fr;}
+    .coreValue ul{grid-template-columns: 1fr 1fr;}
+    .proposedCore ul li{width: 33.3%;margin-bottom: 30px;}
+    .proposedCore ul li:nth-child(4),
+    .proposedCore ul li:nth-child(5){width: 50%;}
+    .teamSection{padding: 150px 20px;}
+    .whyMetallium > ul > li{padding: 25px 20px;}
+    .whyMetallium > ul > li > img{max-height: 60px;}
+    .whyMetallium > ul > li > span{font-size: 16px;line-height: 20px;}
+    .gallery ul{grid-template-columns: 1fr 1fr;}
+    .contactPage{grid-template-columns: 1fr;}
+    .productPage.produstList ul{grid-template-columns: 1fr;}
+    .productDetails .productImg img{max-width: 100%;}
+    .productDetails .productImg::before,
+    .productDetails .productImg::after{display: none;}
+    .productDetails .productImg{margin-bottom: 50px;}
+    .journey .owl-carousel .owl-item.active p{margin: 35px auto auto auto;opacity: 1;}
+    .journey .owl-carousel .owl-item p{max-width: 60%;}
+    .homeBanner > ul{width: 100%;}
+}
+
+@media (max-width: 767.98px) {
+    .bannerTitle{padding: 0;}
+    .homeBanner > ul{grid-template-columns: 1fr;width: 60%;}
+    .homeBanner > ul > li:nth-child(5),
+    .homeBanner > ul > li:nth-child(10),
+    .homeBanner > ul > li:nth-child(11),
+    .homeBanner > ul > li:nth-child(12),
+    .homeBanner > ul > li:nth-child(15),
+    .homeBanner > ul > li:nth-child(16){min-width: 100%;min-height: 180px;}
+    .innerBanner{height: 280px;}
+    .innerBanner h1{line-height: 280px;background-image: none;}
+    .innerBanner::after{display: none;}
+    .whoAre{padding: 50px 20px;}
+    .journey{padding: 50px 20px 0 20px;}
+    .philosophy{padding: 50px 20px;text-align: center;max-width: 100%;}
+    .philosophy ul{grid-template-columns: 1fr;}
+    .philosophy img{max-width: 200px;display: table;margin: auto;}
+    .coreValue{padding: 50px;}
+    .proposedCore{padding: 50px 20px;}
+    .team .owl-carousel .owl-item:nth-child(even){margin-top: 0;}
+    .teamSection{padding: 50px 20px;}
+    .support{padding: 50px 20px;}
+    .support p{padding: 0;}
+    .whyMetallium{padding: 50px 20px;}
+    .whyMetallium > ul{grid-template-columns: 1fr;}
+    .whyMetallium > ul > li{padding: 50px;}
+    .whyMetallium > ul > li > img{max-height: 80px;}
+    .whyMetallium > ul > li > span{font-size: 19px;line-height: 22px;}
+    .productsIntro{padding: 50px 20px;}
+    .productPage{padding: 50px 20px;}
+    .productPage .container{padding: 0;}
+    .productPage ul li{padding: 20px;}
+    .gallery{padding: 50px 20px;}
+    .contactPage{padding: 50px;}
+    .contactForm{padding: 50px;}
+    .productDetails{padding: 50px;}
+    .productDetails h2{font-size: 2rem;line-height: 2rem;}
+    footer .touch{font-size: 2rem;line-height: 2.2rem;}
+    .menu ul > li > a{line-height: 50px;}
+}
+
+@media (max-width: 575.98px) {
+    .homeBanner{padding: 20px;}
+    .bannerTitle{padding: 0;width: 100%;top: 0;position: relative;margin-top: 70px;margin-bottom: 20px;}
+    .bannerTitle h1{font-size: 19px;margin-bottom: 10px;}
+    .bannerTitle .btn{font-size: 14px;padding: 7px 20px;}
+    .bannerTitle > ul > li{margin: 0 5px;}
+    .homeBanner > ul{padding: 0;bottom: auto;top: auto;font-size: 12px;position: relative;}
+    .homeBanner > ul > li:nth-child(5),
+    .homeBanner > ul > li:nth-child(10),
+    .homeBanner > ul > li:nth-child(11),
+    .homeBanner > ul > li:nth-child(12),
+    .homeBanner > ul > li:nth-child(15),
+    .homeBanner > ul > li:nth-child(16){min-height: 180px;}
+    .sectionTitle{font-size: 2rem;line-height: 2rem;}
+    .productSection .owl-carousel .owl-dots .owl-dot span{width: 50px;}
+    .excellence p{max-width: 100%;}
+    footer .footerLinks li{width: 100%;padding: 5px 0;text-align: center;}
+    footer .touch{font-size: 1.7rem;line-height: 2rem;}
+    footer::before{right: -52px;}
+    footer::after{left: -357px;}
+    .innerBanner{height: 210px;background-position: center;background-size: 100%;}
+    .innerBanner h1{line-height: 210px;font-size: 32px;}
+    .proposedCore ul li,
+    .proposedCore ul li:nth-child(4){width: 50%;}
+    .proposedCore ul li:nth-child(5){width: 100%;}
+    footer .footerLinks{padding: 30px 0;}
+    footer .footerSocialMedia{margin: auto auto 30px auto;}
+    .proposedCore ul li img{max-height: 50px;}
+    .proposedCore ul li h5{font-size: 18px;}
+    .difference ul li{font-size: 18px;line-height: 20px;padding-left: 18px;}
+    .gallery ul{grid-template-columns: 1fr;}
+    .gallery ul li img{width: 100%;}
+    .productDetails h2{font-size: 1.5rem;line-height: 1.5rem;}
+    .productDetails{padding: 50px 20px;}
+    .productDetails .productImg{margin-bottom: 20px;}
+    .journey .owl-carousel .owl-item p{max-width: 100%;}
+    
+}
+@media (max-width: 479.98px) {
+    .homeBanner > ul > li:nth-child(5),
+    .homeBanner > ul > li:nth-child(10),
+    .homeBanner > ul > li:nth-child(11),
+    .homeBanner > ul > li:nth-child(12),
+    .homeBanner > ul > li:nth-child(15),
+    .homeBanner > ul > li:nth-child(16){min-height: 140px;}
+    .aboutSection .container{padding: 50px 20px;}
+    .productSection .container{padding: 50px 20px;}
+    .excellence::before,
+    .excellence::after{display: none;}
+    .excellence .container{padding: 150px 20px 50px 20px;}
+    .projects .sectionTitle{margin-bottom: 15px;}
+    .projects{padding: 50px 20px;}
+    .projects::before,
+    .projects::after{display: none;}
+    .coreValue{padding: 50px 20px;}
+    .coreValue ul{grid-template-columns: 1fr;grid-gap: 20px;}
+    .support img{max-width: 100%;}
+    .whyMetallium > ul > li{flex-direction: column;text-align: center;padding: 30px}
+    .whyMetallium > ul > li > span{margin-top: 20px;}
+    .difference{padding: 50px 20px;}
+    .productPage ul li h2{font-size: 32px;line-height: 32px;margin: 15px 0 10px 0;}
+    .contactPage{padding: 20px;}
+    .contactForm{padding: 30px;}
+    .productPage.produstList ul li,
+    .productPage.produstList{padding: 20px;}
+    footer .touch{font-size: 2rem;line-height: 2.2rem;}
+    .homeBanner > ul{width: 80%;}
+    .menu.active ul > li > a{font-size: 28px;}
+}
+@media (max-width: 420px) {
+    footer{padding: 50px 0;}
+    footer::before,
+    footer::after{display: none;}
+    footer .copyright{padding: 0 20px;}
+}
